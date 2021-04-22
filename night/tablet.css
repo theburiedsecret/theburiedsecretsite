@@ -185,3 +185,9 @@ img{
 .Ung:hover{
 	font-size: 70px;
 }
+.footLink {
+    border:0px;
+    padding: 0px;
+	text-align: center;
+	text-decoration: none;
+}

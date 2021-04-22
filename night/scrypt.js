@@ -1,3 +1,9 @@
+$( init );
+
+function init() {
+  $('.panel').draggable();
+}
+
 var dateTitle =[
 	["09/22/2004", "Buried Secret"],
 	["04/14/2005", "Unbreakable"],
