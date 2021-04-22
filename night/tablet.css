@@ -1,0 +1,187 @@
+body{
+	background-color: #032b43;
+}
+div{
+	margin: 8px;
+	padding: 8px;
+	border: 1px solid black;
+	position: static;
+	background-color: white;
+	}
+#pageWrapper{
+	display: flex;
+	flex-direction: column;
+	border: 0px;
+	background-color: #032b43;
+	
+	
+}
+#footer{
+	background-image: url("images/haley.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	height: 100px;
+}
+#title{
+	font-size: 30px;
+	letter-spacing: 4px;
+	text-align: center;
+}
+#toolBar{
+	display: flex;
+	justify-content: space-around;
+}
+a {
+    color: black;
+    border: 2px outset white;
+    background: #eee;
+    padding: 2px;
+	text-align: center;
+	text-decoration: none;
+}
+a:hover {
+    background: #f5f5f5;
+	text-decoration: none;
+}
+a:active {
+    border-style: inset;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:link {
+	text-decoration: none;
+}
+
+.bar{
+	flex-basis: 20%;
+}
+#center{
+	display: flex;
+	flex-direction: row;
+	border: 0px;
+	background-color: #032b43;
+}
+#timeLine{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 25%;
+	justify-content: flex-start;
+}
+#content{
+	display: flex;
+	flex-direction: column;
+	flex-basis: 75%;
+	border: 0px;
+	background-color: #032b43;
+}
+#upper{
+	display: flex;
+	flex-direction: row;
+	border: 0px;
+	background-color: #032b43;
+}
+#upperBlog{
+	display: flex;
+	flex-direction: column;
+	border: 0px;
+	background-color: #032b43;
+}
+#lower{
+	display: flex;
+	flex-direction: row;
+	border: 0px;
+	background-color: #032b43;
+}
+#postTitle{
+	text-align: center;
+	font-weight: bold;
+}
+#videoFrame{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#video{
+	border: 0px;
+}
+#intro{
+	flex-basis: 80%;
+}
+#commentBox{
+	display: flex;
+	flex-direction: column;
+}
+
+img{
+	height: auto;
+	width: 100%;
+}
+
+
+.arrow{
+	font-size: 100px;
+	border: 0px;
+}
+.left{
+	text-align: left;
+}
+.middle{
+	text-align: center;
+}
+
+.comment{
+	display: flex;
+	background-color: white;
+}
+
+.coleMan:hover{
+	animation: shake 0.5s;
+  	animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.raven5{
+	color: red;
+	font-family: "Courier New";
+}
+
+.midnight5{
+    color: blue;
+    text-shadow: 1px 1px 2px black;
+}
+.Mrbruce{
+    color: #ffdb58;
+}
+
+.twisty{
+	color: mediumpurple;
+	transition: 1.2s;
+}
+
+.twisty:hover{
+	 transform: rotateY(360deg);
+}
+
+.Ung{
+	color: saddlebrown;
+	font-size: 16px;
+	
+}
+.Ung:hover{
+	font-size: 70px;
+}
